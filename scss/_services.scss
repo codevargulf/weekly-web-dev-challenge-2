@@ -1,0 +1,67 @@
+
+//----------------------------------------------------
+// Services ---------------------------------------------
+//----------------------------------------------------
+.services {
+    background-color: #70bfff;
+    min-height: 600px;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+  
+.services .container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.info {
+    width: 13em;
+    height: 4em;
+    background-color: #fff;
+    margin: .7em;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+  
+.info-cnt {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.info p {
+    width: 100%;
+    text-align: center;
+}
+  
+.info img {
+    width: 20%;
+    border-left: 1px solid black;
+}
+
+.services-image {
+    width: 50%;
+    margin-top:0;
+}
+
+.wrapper h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3em;
+    position: relative;
+    top: 3em;
+    left: 0;
+}

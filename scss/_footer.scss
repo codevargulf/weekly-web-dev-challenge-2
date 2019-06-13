@@ -1,0 +1,27 @@
+footer {
+    min-height: 200px;
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #b9b9b9;
+    font-family: "Raleway";
+    font-weight: 300;
+}
+
+footer p:nth-of-type(2) {
+    font-family: 'Pacifico', cursive;
+    font-size: 1em;
+}
+
+footer span {
+    font-weight: 700;
+    color: #f52b55;
+}
+

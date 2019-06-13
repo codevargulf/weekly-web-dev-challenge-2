@@ -1,0 +1,38 @@
+
+//----------------------------------------------------
+// About ---------------------------------------------
+//----------------------------------------------------
+
+.about {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    min-height: 400px;
+    width: 100%; 
+    background-color: #02b5b5;
+  }
+  
+.about .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.about-img {
+    width: 80%;
+}
+  
+.img {
+    width: 100%;
+}
+  
+.about-description {
+    width: 80%;
+    color: #fff;
+    p {
+      color: #fff;
+    }
+}
+  

@@ -1,0 +1,49 @@
+//----------------------------------------------------
+// Main-hero -----------------------------------------
+//----------------------------------------------------
+
+.main-hero {
+    background: url("../images/bg.jpg") no-repeat center/cover;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 4.5em;
+    position: relative;
+  }
+  
+  .hero-unit h2 {
+    font-weight: 900;
+    font-size: 3em;
+  }
+  
+  .hero-unit p {
+    width: 100%;
+  }
+  
+  .btn--orange {
+    background-color: darkorange;
+    border-color: darkorange;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover {
+    background-color: orangered;
+    border-color: orangered;
+  }
+  
+  .scroll {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    animation: move 1s alternate infinite ease-in-out;
+    transition: all 1s ease;
+  }
+  
+  @keyframes move {
+    to {
+      bottom: 5%;
+    }
+  }
+  

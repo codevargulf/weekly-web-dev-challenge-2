@@ -1,0 +1,29 @@
+// //----------------------------------------------------
+// // Navbar --------------------------------------------
+// //----------------------------------------------------
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000000;
+    .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+    .navbar-brand {
+      font-family: "Pacifico";
+      font-size: 1.1em;
+    }
+  
+    .navbar-nav {
+      text-transform: uppercase; 
+    }
+    .nav-link {
+      font-weight: 700; 
+    }
+    .nav-link:hover {
+      border-top: 3px solid darkorange;
+    }
+}

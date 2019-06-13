@@ -1,0 +1,24 @@
+//----------------------------------------------------
+// Global variables and classes ----------------------
+//----------------------------------------------------
+
+* {
+  font-family: 'Raleway', sans-serif;
+  color: #262626;
+}
+
+html {
+  font-size: 1.5em;
+  scroll-behavior: smooth;
+}
+
+@import "navbar";
+@import "mainhero";
+@import "about";
+@import "services";
+@import "galllery";
+@import "subscribe";
+@import "blog";
+@import "contact";
+@import "footer";
+@import "media";
